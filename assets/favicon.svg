@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="esFav" x1="0" y1="48" x2="48" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#esFav)"/>
+  <g fill="#0A0E1A">
+    <rect x="16" y="14" width="7" height="20"/>
+    <rect x="16" y="14" width="18" height="5"/>
+    <rect x="16" y="22" width="14" height="5"/>
+    <rect x="16" y="29" width="18" height="5"/>
+  </g>
+</svg>

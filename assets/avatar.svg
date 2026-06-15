@@ -1,0 +1,15 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EdgeScale">
+  <defs>
+    <linearGradient id="esAv" x1="0" y1="240" x2="240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="url(#esAv)"/>
+  <g fill="#0A0E1A">
+    <rect x="74" y="50" width="32" height="140"/>
+    <rect x="74" y="50" width="92" height="26"/>
+    <rect x="74" y="107" width="68" height="26"/>
+    <rect x="74" y="164" width="92" height="26"/>
+  </g>
+</svg>

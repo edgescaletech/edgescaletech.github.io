@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EdgeScale — AI-native product studio</title>
+  <meta name="description" content="EdgeScale is an AI-native product studio. We design, build, and ship production-grade AI products in weeks. AI-native engineers, embedded with your team — not a staffing agency with a Jira board." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="EdgeScale home">
+        <span class="wordmark">Edge<span class="accent">Scale</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#engagements">Engagements</a>
+        <a href="#approach">How we work</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-sm" href="#contact">Start a project</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#services">Services</a>
+      <a href="#engagements">Engagements</a>
+      <a href="#approach">How we work</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a class="btn btn-primary" href="#contact">Start a project</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <span class="mono-label reveal"><b>_</b> AI-native product studio</span>
+        <h1 class="reveal">
+          AI-native engineers who<br />
+          <span class="grad">actually ship.</span>
+        </h1>
+        <p class="lede reveal">
+          EdgeScale designs, builds, and ships production-grade AI products — LLMs, agents,
+          and the software around them. We embed with your team and move at AI-native speed.
+          Not a staffing agency with a Jira board.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary btn-lg" href="#contact">Start a project →</a>
+          <a class="btn btn-ghost btn-lg" href="#work">See the work</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div><strong>4</strong><span>products in market</span></div>
+          <div><strong>100%</strong><span>AI-native team</span></div>
+          <div><strong>APAC</strong><span>clients shipped for</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST ROW ===== -->
+    <section class="trust" aria-label="Clients">
+      <p class="trust-label">Teams we've shipped with</p>
+      <div class="container">
+        <div class="logo-row">
+          <a class="logo-link" href="https://www.kumu.live/" target="_blank" rel="noopener" aria-label="Kumu">
+            <img src="assets/logo-kumu.png" alt="Kumu" loading="lazy" />
+          </a>
+          <a class="logo-link" href="https://www.angkas.com/" target="_blank" rel="noopener" aria-label="Angkas">
+            <img src="assets/logo-angkas.svg" alt="Angkas" loading="lazy" />
+          </a>
+          <a class="logo-link" href="https://callcooee.com/" target="_blank" rel="noopener" aria-label="callcooee">
+            <img src="assets/logo-callcooee.svg" alt="callcooee" loading="lazy" />
+          </a>
+          <a class="logo-link" href="https://habuild.in/" target="_blank" rel="noopener" aria-label="Habuild">
+            <img src="assets/logo-habuild.png" alt="Habuild" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES (BENTO) ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> what we do</span>
+          <h2>From the first prompt to production scale.</h2>
+          <p>LLMs, agents, and automation aren't a bolt-on for us — they're how we build. Here's where teams bring us in.</p>
+        </div>
+        <div class="bento">
+          <article class="card card-feature">
+            <div class="card-ico">◆</div>
+            <h3>AI Product Engineering</h3>
+            <p>End-to-end builds — web, mobile, backend — with LLMs, RAG, and agentic workflows wired in from day one. Designed, coded, and shipped by AI-native engineers who've done it before.</p>
+            <ul class="chips">
+              <li>LLM &amp; RAG</li><li>Agents</li><li>Full-stack</li><li>Mobile</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-ico">⚡</div>
+            <h3>Rapid MVPs</h3>
+            <p>Validate the riskiest bet first. Fuzzy idea to a live, testable product in weeks — in front of real users fast.</p>
+          </article>
+          <article class="card">
+            <div class="card-ico">⟲</div>
+            <h3>AI Integration &amp; Automation</h3>
+            <p>Copilots, intelligent search, and back-office automation dropped into the software you already run.</p>
+          </article>
+          <article class="card">
+            <div class="card-ico">⤢</div>
+            <h3>Scale &amp; Reliability</h3>
+            <p>Prototype to enterprise-grade: observability, evals, cost control, and infra that holds under load.</p>
+          </article>
+          <article class="card">
+            <div class="card-ico">◎</div>
+            <h3>Fractional AI Team</h3>
+            <p>A battle-tested product, design, and engineering pod embedded in your org — shipping alongside you.</p>
+          </article>
+          <article class="card card-wide">
+            <div class="card-ico">✦</div>
+            <h3>AI Strategy &amp; Advisory</h3>
+            <p>Where will AI actually move the needle for your business? We cut through the hype and hand you a roadmap your board and your engineers both trust — then we build it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHAT WE'RE NOT ===== -->
+    <section class="section section-alt" id="not">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> the difference</span>
+          <h2>What EdgeScale is <span class="grad">not</span>.</h2>
+          <p>Most "AI partners" fall into one of three buckets. We were built to be none of them.</p>
+        </div>
+        <div class="compare">
+          <div class="compare-col negative">
+            <p class="compare-head">Most shops</p>
+            <ul>
+              <li>An offshore body shop billing by the seat</li>
+              <li>A slide-deck consultancy that never ships code</li>
+              <li>A flashy AI demo that dies before production</li>
+              <li>Teams bolting AI on, not building AI-native</li>
+            </ul>
+          </div>
+          <div class="compare-vs">vs</div>
+          <div class="compare-col positive">
+            <p class="compare-head">EdgeScale</p>
+            <ul>
+              <li>AI-native engineers who scope <em>and</em> build your product</li>
+              <li>Working software every week — not slides</li>
+              <li>Production-grade from day one, with evals and observability</li>
+              <li>A clean, documented handoff your team owns</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== APPROACH ===== -->
+    <section class="section" id="approach">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> the edgescale loop</span>
+          <h2>AI-native team. Startup speed. No theater.</h2>
+          <p>Our four-step loop — the EdgeScale Loop — keeps you shipping and keeps us accountable.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">01</span>
+            <h3>Frame</h3>
+            <p>One focused week to pin down the real problem, the user, and the single metric that defines success.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">02</span>
+            <h3>Build</h3>
+            <p>Weekly shippable increments. You see working software — not slide decks — every Friday.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">03</span>
+            <h3>Measure</h3>
+            <p>Real users, real evals. We instrument from the start so decisions run on data, not vibes.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">04</span>
+            <h3>Scale</h3>
+            <p>Harden, optimize cost, and hand off a codebase your team is proud to own.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ENGAGEMENTS ===== -->
+    <section class="section section-alt" id="engagements">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> engagements</span>
+          <h2>Ways to work with us.</h2>
+          <p>Productized, fixed-scope engagements — so you know exactly what you're getting before we start.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-ico">⚡</div>
+            <h3>AI MVP Sprint</h3>
+            <p>Idea to a live, testable AI product. Fixed scope, AI-native team, shipped and in real users' hands — fast.</p>
+            <ul class="chips"><li>Fixed scope</li><li>Weekly demos</li></ul>
+          </article>
+          <article class="card">
+            <div class="card-ico">◎</div>
+            <h3>Embedded AI Pod</h3>
+            <p>An AI-native product &amp; engineering pod embedded in your team, month to month. Scale up or pause anytime — no rigid contracts.</p>
+            <ul class="chips"><li>Monthly</li><li>Flexible</li></ul>
+          </article>
+          <article class="card">
+            <div class="card-ico">✦</div>
+            <h3>AI Audit &amp; Roadmap</h3>
+            <p>A focused engagement to pinpoint where AI actually moves your metrics — and a build plan your team and board both trust.</p>
+            <ul class="chips"><li>2–3 weeks</li><li>Fixed fee</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> selected work</span>
+          <h2>Products in the hands of real users.</h2>
+          <p>Teams we've partnered with across consumer, mobility, and health.</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="case">
+            <span class="case-idx">01</span>
+            <header><h3><a href="https://www.kumu.live/" target="_blank" rel="noopener">Kumu</a></h3><span class="tag">Consumer · Live streaming</span></header>
+            <p>Partnered with one of the Philippines' largest live-streaming and entertainment platforms — building and refining features serving users at massive scale.</p>
+            <span class="region">🌏 Philippines</span>
+          </article>
+          <article class="case">
+            <span class="case-idx">02</span>
+            <header><h3><a href="https://www.angkas.com/" target="_blank" rel="noopener">Angkas</a></h3><span class="tag">Mobility · Marketplace</span></header>
+            <p class="case-metric"><strong>0→1</strong> ride-hailing platform rebuild</p>
+            <p>Rebuilt the entire ride-hailing system from the ground up for the leading motorcycle-taxi platform — rider and driver apps plus the real-time marketplace engine behind them.</p>
+            <span class="region">🌏 Philippines</span>
+          </article>
+          <article class="case">
+            <span class="case-idx">03</span>
+            <header><h3><a href="https://callcooee.com/" target="_blank" rel="noopener">callcooee.com</a></h3><span class="tag">Communications · SaaS</span></header>
+            <p>Built product and AI-driven features for a modern communications platform — turning conversations into structured, actionable data.</p>
+            <span class="region">🌐 Global</span>
+          </article>
+          <article class="case">
+            <span class="case-idx">04</span>
+            <header><h3><a href="https://habuild.in/" target="_blank" rel="noopener">Habuild</a></h3><span class="tag">Health · Habit building</span></header>
+            <p class="case-metric"><strong>10M</strong> scheduled notifications / day</p>
+            <p>Built the notification system that reliably delivers 10 million scheduled push notifications every day — the engagement backbone that keeps large daily-active cohorts showing up.</p>
+            <span class="region">🌏 India</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHO WE WORK WITH ===== -->
+    <section class="section section-alt" id="audience">
+      <div class="container">
+        <div class="section-head">
+          <span class="mono-label"><b>_</b> who we work with</span>
+          <h2>Built for teams that need to move.</h2>
+          <p>From first line of code to production scale — we plug in wherever you are.</p>
+        </div>
+        <div class="grid grid-4 audience">
+          <div class="aud"><h3>Startups</h3><p>Get to a credible v1 and into the market.</p></div>
+          <div class="aud"><h3>Scale-ups</h3><p>Add AI to a product already in users' hands.</p></div>
+          <div class="aud"><h3>PE &amp; portfolio</h3><p>Modernize and de-risk operating companies.</p></div>
+          <div class="aud"><h3>Enterprise teams</h3><p>Ship past the pilot, into production.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="mono-label"><b>_</b> about EdgeScale</span>
+          <h2>The edge is where good products are won.</h2>
+          <p class="lede">AI has reset what a small, AI-native team can build — and most companies are still moving like it's 2019.</p>
+          <p>We're operators who've shipped consumer apps to millions and back-office tools that quietly run businesses. Now we bring that experience, paired with an AI-native way of building, to teams in the US and beyond. No bloated retainers, no hand-waving — just AI-native people shipping software that earns its keep.</p>
+          <a class="btn btn-primary" href="#contact">Work with us →</a>
+        </div>
+        <ul class="value-list">
+          <li><strong>AI-native by default.</strong> The people who scope your project are the people who build it.</li>
+          <li><strong>AI-native, not AI-washed.</strong> We use these tools daily, in production, with the scars to prove it.</li>
+          <li><strong>Outcome obsessed.</strong> We tie our work to your metric, not our hours.</li>
+          <li><strong>Clean handoffs.</strong> You leave with tested, documented code your team owns.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta" id="contact">
+      <div class="container cta-inner">
+        <span class="mono-label"><b>_</b> let's talk</span>
+        <h2>Tell us what you're building.</h2>
+        <p>We'll come back within one business day with honest thoughts on whether — and how — we can help. No deck required.</p>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnjywono" method="POST">
+          <div class="form-row">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label class="field">
+              <span>Work email</span>
+              <input type="email" name="email" placeholder="jane@company.com" required />
+            </label>
+          </div>
+          <label class="field">
+            <span>Company</span>
+            <input type="text" name="company" placeholder="Company name" />
+          </label>
+          <label class="field">
+            <span>What are you building?</span>
+            <textarea name="message" rows="4" placeholder="A sentence or two on the project, timeline, and what success looks like." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-lg">Send project brief →</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+        <p class="cta-note">Flexible business hours · Remote-first · Available worldwide</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="wordmark">Edge<span class="accent">Scale</span></span>
+        <p>AI-native product studio. Designed, built, and shipped by engineers who build with AI every day.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#approach">How we work</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> EdgeScale. All rights reserved.</span>
+      <span>Built with AI, by humans who care.</span>
+    </div>
+  </footer>
+
+  <script src="main.js?v=2"></script>
+</body>
+</html>

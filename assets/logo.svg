@@ -1,0 +1,16 @@
+<svg width="216" height="48" viewBox="0 0 216 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EdgeScale">
+  <defs>
+    <linearGradient id="esLogo" x1="0" y1="44" x2="40" y2="4" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="4" width="40" height="40" rx="10" fill="url(#esLogo)"/>
+  <g fill="#0A0E1A">
+    <rect x="12" y="14" width="6" height="21"/>
+    <rect x="12" y="14" width="17" height="5"/>
+    <rect x="12" y="22" width="13" height="5"/>
+    <rect x="12" y="30" width="17" height="5"/>
+  </g>
+  <text x="52" y="31" font-family="Plus Jakarta Sans, Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="-0.5" fill="#F8FAFC">EdgeScale</text>
+</svg>
