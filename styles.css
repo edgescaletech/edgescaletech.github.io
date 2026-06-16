@@ -290,6 +290,8 @@ img { max-width: 100%; display: block; }
 .footer-inner { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; padding-bottom: 34px; border-bottom: 1px solid var(--border); }
 .footer-brand { max-width: 320px; }
 .footer-brand p { color: var(--muted-2); font-size: 14px; margin-top: 14px; }
+.footer-social { display: inline-flex; align-items: center; gap: 8px; margin-top: 16px; color: var(--muted); font-size: 14px; font-weight: 500; transition: color .2s; }
+.footer-social:hover { color: var(--cyan); }
 .footer-nav { display: flex; gap: 26px; flex-wrap: wrap; align-items: flex-start; }
 .footer-nav a { color: var(--muted); font-size: 15px; transition: color .2s; }
 .footer-nav a:hover { color: var(--text); }
